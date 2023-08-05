@@ -19,6 +19,8 @@ services:
       - MYSQL_USER=wp
     volumes:
       - ./mysql:/var/lib/mysql:delegated
+    ports:
+      - 3306:3306
   php:
     build:
       context: .

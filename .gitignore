@@ -1,5 +1,5 @@
 wordpress-6.2.2.zip
-mysql
+mysql/
 .gitignore
 .git
 .prettierrc
